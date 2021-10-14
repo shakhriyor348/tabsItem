@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tab-header {
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.tab-header-item {
+    height: calc(100% / 4);
+    color:#888;
+    font-weight:600;
+    cursor:pointer;
+    font-size:14px;
+    text-transform:uppercase;
+    outline:none;
+    padding: 20px;
+    width: 100%;
+    z-index: 99;
+}
+
+.tab-indicator {
+    position: absolute;
+    height: calc(100% / 4);
+    width: 150px;
+    background: #00acee;
+    top: 0px;
+    border-radius: 5px;
+    transition: all 500ms ease-in-out;
+}
